@@ -1,0 +1,17 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="h" style="opacity: 1;"></h1>
+    <h1>Chapters</h1>
+    <h3 style="opacity: 1;">FUCKED Up!!</h3>
+    <script>
+    const no = new URLSearchParams(window.location.search);
+    const message = no.get('message');
+    document.getElementById('h').textContent = message || '0';
+    </script>
+</body>
+</html>

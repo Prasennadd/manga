@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FUCKED UP!</h1>
+    <h1 id="name"></h1>
+    <h1 id="c"></h1>
+
+    <script>
+        // Parse query string
+        const params = new URLSearchParams(window.location.search);
+
+        // Get 'message' and 'id' values
+        const message = params.get('message');
+        const id = params.get('id');
+
+        // Display in the page
+        document.getElementById('name').textContent = message;
+        document.getElementById('c').textContent = id;
+    </script>
+</body>
+</html>

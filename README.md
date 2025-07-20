@@ -1,1 +1,1 @@
-# manga
+# Let's GO!
